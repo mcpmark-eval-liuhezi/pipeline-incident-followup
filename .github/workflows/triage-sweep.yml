@@ -1,0 +1,11 @@
+name: Triage Sweep
+
+on:
+  workflow_dispatch:
+
+jobs:
+  triage-sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder check
+        run: echo "Real triage checks are pending - this is a placeholder until they are wired up."
